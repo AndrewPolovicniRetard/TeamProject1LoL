@@ -12,14 +12,20 @@ namespace TeamProjectCsNejlepsi
 
             while (proceed)
             {
+
+                if (proceed == true)
+                {
+                    Console.WriteLine("<Zadejte slovo:");
+                    
+                }
                 string userInputA = Console.ReadLine();
 
-                if (string.IsNullOrEmpty(userInputA))
+                if (string.IsNullOrWhiteSpace(userInputA))
                 {
                     Console.WriteLine(finalSentence);
                     proceed = false;
                 }
-                else if (!string.IsNullOrEmpty(userInputA))
+                else if (!string.IsNullOrWhiteSpace(userInputA))
                 {
                     finalSentence += userInputA;
                 
