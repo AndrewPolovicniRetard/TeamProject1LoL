@@ -6,7 +6,28 @@ namespace TeamProjectCsNejlepsi
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Tady kod zmrdi");
+            bool proceed = true;
+            
+            string finalSentence = "";
+
+            while (proceed)
+            {
+                string userInputA = Console.ReadLine();
+
+                if (string.IsNullOrEmpty(userInputA))
+                {
+                    Console.WriteLine(finalSentence);
+                    proceed = false;
+                }
+                else if (!string.IsNullOrEmpty(userInputA))
+                {
+                    finalSentence += userInputA;
+                
+                }
+            }
+           
+
+            
         }
     }
 }
