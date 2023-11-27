@@ -72,4 +72,8 @@ namespace TeamProjectCsNejlepsi
         }
     }
 }
+<<<<<<< HEAD
 // ondra je kokot
+=======
+// Jsem to zvládnul - Matěj :D
+>>>>>>> 49b75ae4ca9fe73b71285d66ab784dc76c060611
