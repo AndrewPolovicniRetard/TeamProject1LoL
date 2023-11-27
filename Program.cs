@@ -72,3 +72,4 @@ namespace TeamProjectCsNejlepsi
         }
     }
 }
+// ondra je kokot
